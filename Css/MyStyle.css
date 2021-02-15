@@ -51,6 +51,9 @@ figure figcaption{
     padding-left: 25%;
 }
 /* Pour la décoration des éléments pair et impair */
+tbody tr:hover td{
+    background-color:rgb(114, 112, 112);
+}
 table{
     border-collapse: collapse; /*Cette propriété permet de pouvoir enlever les espaces entre les cellules */
 }
@@ -64,11 +67,6 @@ th, td {
 tbody tr:nth-child(2n+1) {background-color:rgb(235,230,230);}; /*ça Permet d'appliquer le style aux éléments impairs du tableau*/
 td:nth-child(even) {background-color:transparent;}; /*ça Permet d'appliquer le style aux éléments pairs du tableau*/
 
-
-a:hover{
-    background-color:rgb(114, 112, 112);
-    background-color: rgb(250, 20, 22);
-}
 .DernierPara{
     border: 3px dashed rgb(84,72,174);
     color: rgb(84,72,174);
