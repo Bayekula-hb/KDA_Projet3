@@ -25,6 +25,10 @@ h2{
     color: rgb(200, 17, 20);
 }
 a{
+    color: initial;
+    text-decoration: none;
+}
+p a{
     color: rgb(250, 20, 22);
 }
 .FirstServeur, figure{
@@ -47,25 +51,28 @@ figure figcaption{
     padding-left: 25%;
 }
 /* Pour la décoration des éléments pair et impair */
-td{
-    margin: 0%;
+table{
+    border-collapse: collapse; /*Cette propriété permet de pouvoir enlever les espaces entre les cellules */
 }
-th{
-    background-color: rgb(51,51,51);
-    color: rgb(250, 255, 250);
+thead{
+    background-color: rgb(21,21,21);
+    color: rgb(247, 240, 240);
 }
-tr:nth-child(2n+1) {background-color:rgb(235,230,230);};
-/* tr:nth-child(odd) {background-color:rgb(221,221,221);}; */
-/* td:nth-child(even) {background-color:transparent;}; */
-/* tr:nth-child(0n+3) {background-color:rgb(153,153,153);}; */
-td:hover{
-    font-size: 1.2rem;
-    background-color:rgb(221,221,221);
+th, td {
+  padding: 0.5%;
+}
+tbody tr:nth-child(2n+1) {background-color:rgb(235,230,230);}; /*ça Permet d'appliquer le style aux éléments impairs du tableau*/
+td:nth-child(even) {background-color:transparent;}; /*ça Permet d'appliquer le style aux éléments pairs du tableau*/
+
+
+a:hover{
+    background-color:rgb(114, 112, 112);
+    background-color: rgb(250, 20, 22);
 }
 .DernierPara{
     border: 3px dashed rgb(84,72,174);
     color: rgb(84,72,174);
     padding: 10px;
-    margin-left: 3%;
+    margin-left: 4%;
     line-height: 200%;
 }
