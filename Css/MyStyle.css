@@ -50,6 +50,14 @@ figure figcaption{
     width: 50%;
     padding-left: 25%;
 }
+.DernierPara{
+    border: 3px dashed rgb(84,72,174);
+    color: rgb(84,72,174);
+    padding: 10px;
+    margin-left: 4%;
+    line-height: 200%;
+}
+
 /* Pour la décoration des éléments pair et impair */
 tbody tr:hover td{
     background-color:rgb(114, 112, 112);
@@ -66,11 +74,3 @@ th, td {
 }
 tbody tr:nth-child(2n+1) {background-color:rgb(235,230,230);}; /*ça Permet d'appliquer le style aux éléments impairs du tableau*/
 td:nth-child(even) {background-color:transparent;}; /*ça Permet d'appliquer le style aux éléments pairs du tableau*/
-
-.DernierPara{
-    border: 3px dashed rgb(84,72,174);
-    color: rgb(84,72,174);
-    padding: 10px;
-    margin-left: 4%;
-    line-height: 200%;
-}
