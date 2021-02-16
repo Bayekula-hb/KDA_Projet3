@@ -3,7 +3,6 @@ body{
     margin: auto;
     background-color: rgb(200, 200, 200);
     font-family: 'Bitter', serif;
-    font-family: 'Roboto Mono', monospace;
 }
 /* Début d'ajout de police */
 @font-face{
