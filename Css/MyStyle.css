@@ -1,23 +1,32 @@
+
+/* Début d'ajout de police */
+@font-face{
+    font-family: "Baskerville";
+    src: url("./Baskervi.ttf") format("ttf"),
+         url("./Baskerv1.ttf") format("ttf"),
+         url("./Baskerv2.ttf") format("ttf");
+    font-weight: 700;
+}
+@font-face{
+    font-family: "Roboto Mono";
+    src:    url("./Roboto-Bold.ttf") format("ttf"),
+            url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+}
 body{
     width: 80%;
     margin: auto;
     background-color: rgb(200, 200, 200);
-    font-family: 'Bitter', serif;
+    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-/* Début d'ajout de police */
-@font-face{
-    font-family: 'Bitter';
-    src: url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Roboto+Mono:wght@300&display=swap');
-}
-@font-face{
-    font-family: "Roboto Mono";
-    src: url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
-}
-
 /* Fin */
+.TitlePage, h2{
+    font-family: 'Baskerville', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 900;
+}
 .TitlePage{
     font-size: 2rem;
-    font-family: 'Roboto Mono', monospace;
     text-align: center;
 }
 h2{
@@ -51,6 +60,7 @@ figure figcaption{
 }
 .DernierPara{
     border: 3px dashed rgb(84,72,174);
+    background-color: beige;
     color: rgb(84,72,174);
     padding: 10px;
     margin-left: 4%;
